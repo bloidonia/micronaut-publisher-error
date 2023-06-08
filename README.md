@@ -24,7 +24,7 @@ micronaut = "4.0.0-M3"
 application-plugin = "4.0.0-M4"
 ```
 
-And edit the import in the Specification to import `jakarta.validation.constraints.NotBlank` instead of `javax.validation.constraints.NotBlank`.
+And edit the imports in the [the specification](src/test/groovy/micronaut/publisher/error/MicronautPublisherErrorSpec.groovy#L16-L17) to import `jakarta.validation.constraints.NotBlank` instead of `javax.validation.constraints.NotBlank`.
 
 Then run the test again.
 
