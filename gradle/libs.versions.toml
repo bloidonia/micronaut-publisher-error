@@ -1,0 +1,8 @@
+[versions]
+micronaut = "3.9.3"
+application-plugin = "3.7.9"
+#micronaut = "4.0.0-M3"
+#application-plugin = "4.0.0-M4"
+
+[plugins]
+micronaut-application = { id = "io.micronaut.application", version.ref = "application-plugin" }
